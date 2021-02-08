@@ -1,0 +1,54 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: burlywood;
+    overflow: 
+}
+
+.grid div {
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    /* border: 4px solid black; */
+    border: 4px;
+    border-style: outset;
+    border-color: bisque;
+}
+
+.valid.checked {
+    background-color: lightsteelblue;
+    cursor: default;
+    border-style: inset;
+}
+
+.bomb.flag {
+    border-style: inset;
+}
+
+.bomb {
+    background-color: burlywood;
+}
+
+.grid div.indiv {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+    border: none;
+    cursor: default;
+}
+
+.stats {
+    margin-left: 20px;
+    padding: 0;
+    font-size: x-large;
+    font-family: ' Roboto', sans-serif;
+    list-style-type: none;   
+}
+
+.stats li {
+    float: left;
+    padding-right: 30px;
+}
